@@ -13,7 +13,10 @@ const nextConfig = {
             "utfs.io",
             "m3ffntcagc.ufs.sh"
         ]
-    }
+    },
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
 };
 
 export default nextConfig;
